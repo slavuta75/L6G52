@@ -14,6 +14,8 @@
 		FEB2463B1E64564000FBD447 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB246391E64564000FBD447 /* LaunchScreen.storyboard */; };
 		FEB246461E64564000FBD447 /* L6G52Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB246451E64564000FBD447 /* L6G52Tests.swift */; };
 		FEB246511E64564000FBD447 /* L6G52UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB246501E64564000FBD447 /* L6G52UITests.swift */; };
+		FEB2465F1E64701000FBD447 /* F1 Race Car Side View_000000_75.png in Resources */ = {isa = PBXBuildFile; fileRef = FEB2465E1E64701000FBD447 /* F1 Race Car Side View_000000_75.png */; };
+		FEB246611E647B1A00FBD447 /* AddCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB246601E647B1A00FBD447 /* AddCarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FEB2464C1E64564000FBD447 /* L6G52UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = L6G52UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB246501E64564000FBD447 /* L6G52UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L6G52UITests.swift; sourceTree = "<group>"; };
 		FEB246521E64564000FBD447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEB2465E1E64701000FBD447 /* F1 Race Car Side View_000000_75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "F1 Race Car Side View_000000_75.png"; sourceTree = "<group>"; };
+		FEB246601E647B1A00FBD447 /* AddCarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +103,10 @@
 			children = (
 				FEB246301E64564000FBD447 /* AppDelegate.swift */,
 				FEB246321E64564000FBD447 /* ViewController.swift */,
+				FEB246601E647B1A00FBD447 /* AddCarViewController.swift */,
 				FEB246341E64564000FBD447 /* Main.storyboard */,
 				FEB246371E64564000FBD447 /* Assets.xcassets */,
+				FEB2465E1E64701000FBD447 /* F1 Race Car Side View_000000_75.png */,
 				FEB246391E64564000FBD447 /* LaunchScreen.storyboard */,
 				FEB2463C1E64564000FBD447 /* Info.plist */,
 			);
@@ -232,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEB2465F1E64701000FBD447 /* F1 Race Car Side View_000000_75.png in Resources */,
 				FEB2463B1E64564000FBD447 /* LaunchScreen.storyboard in Resources */,
 				FEB246381E64564000FBD447 /* Assets.xcassets in Resources */,
 				FEB246361E64564000FBD447 /* Main.storyboard in Resources */,
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEB246611E647B1A00FBD447 /* AddCarViewController.swift in Sources */,
 				FEB246331E64564000FBD447 /* ViewController.swift in Sources */,
 				FEB246311E64564000FBD447 /* AppDelegate.swift in Sources */,
 			);

@@ -62,6 +62,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+  //      print(segue.identifier?.description)
+        if segue.identifier! == "AddCarID" {
+       let addCar = segue.destination as? AddCarViewController
+            addCar?.racingStarted = true
+        }
+    }
 
 }
 
