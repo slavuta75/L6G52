@@ -16,6 +16,8 @@
 		FEB246511E64564000FBD447 /* L6G52UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB246501E64564000FBD447 /* L6G52UITests.swift */; };
 		FEB2465F1E64701000FBD447 /* F1 Race Car Side View_000000_75.png in Resources */ = {isa = PBXBuildFile; fileRef = FEB2465E1E64701000FBD447 /* F1 Race Car Side View_000000_75.png */; };
 		FEB246611E647B1A00FBD447 /* AddCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB246601E647B1A00FBD447 /* AddCarViewController.swift */; };
+		FEB246651E64929A00FBD447 /* CommonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB246641E64929A00FBD447 /* CommonManager.swift */; };
+		FEB2466B1E649FA700FBD447 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB2466A1E649FA700FBD447 /* HistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		FEB246521E64564000FBD447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEB2465E1E64701000FBD447 /* F1 Race Car Side View_000000_75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "F1 Race Car Side View_000000_75.png"; sourceTree = "<group>"; };
 		FEB246601E647B1A00FBD447 /* AddCarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCarViewController.swift; sourceTree = "<group>"; };
+		FEB246641E64929A00FBD447 /* CommonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonManager.swift; sourceTree = "<group>"; };
+		FEB2466A1E649FA700FBD447 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				FEB246301E64564000FBD447 /* AppDelegate.swift */,
 				FEB246321E64564000FBD447 /* ViewController.swift */,
 				FEB246601E647B1A00FBD447 /* AddCarViewController.swift */,
+				FEB2466A1E649FA700FBD447 /* HistoryViewController.swift */,
+				FEB246641E64929A00FBD447 /* CommonManager.swift */,
 				FEB246341E64564000FBD447 /* Main.storyboard */,
 				FEB246371E64564000FBD447 /* Assets.xcassets */,
 				FEB2465E1E64701000FBD447 /* F1 Race Car Side View_000000_75.png */,
@@ -268,6 +274,8 @@
 			files = (
 				FEB246611E647B1A00FBD447 /* AddCarViewController.swift in Sources */,
 				FEB246331E64564000FBD447 /* ViewController.swift in Sources */,
+				FEB246651E64929A00FBD447 /* CommonManager.swift in Sources */,
+				FEB2466B1E649FA700FBD447 /* HistoryViewController.swift in Sources */,
 				FEB246311E64564000FBD447 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

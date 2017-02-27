@@ -9,5 +9,8 @@
 import UIKit
 
 class CommonManager: NSObject {
+    
+    static let sharedCommonManager = CommonManager()
+    var racingStatus = false
 
 }

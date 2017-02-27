@@ -17,9 +17,10 @@ class AddCarViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+     //   runningStartedSwitch.isOn = racingStarted
         
-        runningStartedSwitch.isOn = racingStarted
-
+        runningStartedSwitch.isOn = CommonManager.sharedCommonManager.racingStatus
+        
         // Do any additional setup after loading the view.
     }
 
@@ -28,9 +29,13 @@ class AddCarViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func racingSwitchChanged(_ sender: UISwitch) {
+        
+        CommonManager.sharedCommonManager.racingStatus = sender.isOn
+    }
 
     /*
-    // MARK: - Navigation
+     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

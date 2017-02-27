@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+       // MARK: - Override Methods
     override func awakeFromNib() {
         super.awakeFromNib()
         print(#function)
@@ -61,12 +62,14 @@ class ViewController: UIViewController {
         print(#function)
         // Dispose of any resources that can be recreated.
     }
-
+    // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
   //      print(segue.identifier?.description)
         if segue.identifier! == "AddCarID" {
-       let addCar = segue.destination as? AddCarViewController
-            addCar?.racingStarted = true
+//       let addCar = segue.destination as? AddCarViewController
+//            addCar?.racingStarted = true
+
+        
         }
     }
 
